@@ -1,0 +1,45 @@
+| block title |Projektit| end |
+
+| block content |
+	<p>Tälle sivulle on listattu kaikki ohjelmointi- ja kirjallisuusprojektit, jotka löytyvät tältä sivustolta.</p>
+	<table class="count">
+		<tr><th>Nimi</th><th>Kategoria</th><th>Kieli</th><th>Vuosi</th></tr>
+		| for project in programming_projects |
+			<tr><td>|project.title|</td><td>|project.type|</td><td>|project.language|</td><td>|project.year|</td></tr>
+		| end |
+		| for project in literature_projects |
+			<tr><td>|project.title|</td><td>|project.type|</td><td></td><td>|project.year|</td></tr>
+		| end |
+	</table>
+	<h2>Ohjelmointiprojektit</h2>
+	<p>
+		Lisää ohjelmiani voi löytää <a href="https://github.com/fergusq">Github-sivuiltani</a>.
+		Lisäksi <a href="http://esolangs.org/wiki/User:GermanyBoy">Esolangs-sivullani</a> on lisää suunnittelemiani ohjelmointikieliä,
+		mutta kaikkia ei ole toteutettu.
+	</p>
+	| for project in programming_projects |
+		<h2><a href="|root project.path|">|project.title|</a> (|project.type|, |project.year|)</h2>
+		| ifdef project.example |
+			<pre class="codebox">|for e in project.example e end|</pre>
+		| end |
+		| for p in project.description |
+			<p>|for s in p s " " end|</p>
+		| end |
+	| end |
+	<h2>Kirjallisuusprojektit</h2>
+	| for project in literature_projects |
+		<h2><a href="|root project.path|">|project.title|</a> (|project.type|, |project.year|)</h2>
+		| ifdef project.quote |
+			<blockquote>
+			| for p in project.quote |
+				<p>|for s in p s " " end|</p>
+			| end |
+			</blockquote>
+		| end |
+		| for p in project.description |
+			<p>|for s in p s " " end|</p>
+		| end |
+	| end |
+| end |
+
+| include "templates/_page.plan" |

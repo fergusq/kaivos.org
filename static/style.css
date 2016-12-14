@@ -1,0 +1,219 @@
+
+body {
+	background-color: #FAFAFE;
+	
+}
+
+div.over {
+	margin-left: auto;
+	margin-right: auto;
+	
+	max-width: 1000px
+}
+
+.nav ul {
+	list-style: none;
+	background-color: #6A6FFA;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.nav li {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	border-bottom: 1px solid black;
+}
+
+.nav li li {
+	border-bottom: none;
+	font-size: 0.8em;
+}
+ 
+.nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+ 
+.nav a:hover {
+	background-color: #4048D0;
+}
+ 
+.nav a.active {
+	background-color: #fff;
+	color: #444;
+	cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+	.nav li {
+		border-bottom: none;
+		height: 50px;
+		min-width: 110px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+	.nav li a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.nav li ul {
+		position: absolute;
+		display: none;
+	}
+	.nav li:hover ul {
+		display: block;
+	}
+	.nav li ul {
+		width: inherit;
+	}
+	.nav li ul li {
+		display: block;
+		margin-right: 0px;
+	}
+	.nav li ul li a {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+}
+
+footer {
+	font-style: italic;
+	text-align: center;
+}
+
+div.content {
+	display: block;
+	
+	margin-top: 14px;
+	margin-bottom: 14px;
+	
+	padding: 10px;
+	padding-top: 10px;
+	
+	background-color: #FFF;
+	
+	box-shadow: 0px 1px 2px;
+}
+
+div.sidebar {
+	min-width: 200px;
+	padding-left: 15px;
+	margin-left: 15px;
+	border-left: 1px solid #BBBBBB;
+	float: right;
+}
+
+pre.codebox {
+	background-color: #eee;
+	color: #000;
+	border: 1px solid #222;
+	border-radius: 4px 4px 4px 4px;
+	border-color: #bbb;
+	padding: 5px;
+}
+
+table.count {
+	counter-reset: rowNumber -1;
+}
+
+table.count tr {
+	counter-increment: rowNumber;
+}
+
+table.count tr td:first-child::before {
+	content: counter(rowNumber);
+	min-width: 1em;
+	margin-right: 0.5em;
+}
+
+td:not(:first-child) {
+	padding-left: 10px;
+}
+
+h2.category_heading {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	font-size: inherit;
+}
+
+ul.category_list {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.category_list li {
+	display: inline;
+}
+
+ul.category_list li:not(:last-child)::after {
+	content: '|';
+	margin-left: 0.5em;
+}
+
+h1 {
+	font-family: sans-serif;
+
+	margin-top: -5px;
+	border-bottom: 2px solid #BBBBBB;
+}
+
+blockquote::before {
+	content: '”';
+	font-size: 3em;
+	height: 0.5em;
+	font: sans-serif;
+	float: left;
+	margin-top: -0.3em;
+	margin-right: 4px;
+}
+
+blockquote {
+	border-left: 2px solid black;
+	padding-left: 4px;
+	font-style: italic;
+}
+
+div.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+div.flex-panel {
+	flex-grow: 1;
+}
+
+h2.comic-title {
+	font-family: 'Kalam', cursive;
+	text-align: center;
+}
+
+div.comic-nav {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+div.comic-panel {
+	font-family: 'Kalam', cursive;
+	padding: 20px;
+	border: 1px solid #bbb;
+	position: relative;
+}
+
+div.character-container {
+}
+
+div.character-panel {
+	align-self: flex-end;
+}

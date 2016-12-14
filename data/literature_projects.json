@@ -1,0 +1,144 @@
+[
+	{
+		"name": "herimati",
+		"title": "Herimati",
+		"type": "fiktiivinen kieli",
+		"year": "2013",
+		"categories": ["2013", "kielet"],
+		"summary": ["Keinotekoinen kieli."],
+		"description": [
+			[
+				"Herimati on yksinkertaisempi versio tjaldista."
+			]
+		],
+		"quote": [
+			[
+				"umazikarim uma'akoholini umi amakese!"
+			]
+		],
+		"links": [
+			{
+				"title": "Kotisivu",
+				"url": "/kielet/herimati.html"
+			}
+		]
+	},
+	{
+		"name": "kosminen-vuoropuhelu",
+		"title": "Kosminen vuoropuhelu",
+		"type": "sarjakuva",
+		"year": "2016",
+		"categories": ["2016", "sarjakuvat"],
+		"summary": ["Internet-sarjakuva, joka edustaa hienointa osaamaani graafista jälkeä."],
+		"description": [
+			[
+				"Kosminen vuoropuhelu on kirjoittamani Internet-sarjakuva.",
+				"Se perustuu täysin vuoropuheluun, eikä sen \"kuvilla\" ole juuri mitään funktiota.",
+				"Itse asiassa sarjakuvat generoidaan tekstitiedostoista."
+			]
+		],
+		"quote": [
+			[
+				"Koko ohjelman pointti tuntuu olevan, että siinä on viehättäviä seksinnälkäisiä nuoria naisia..."
+			]
+		],
+		"links": [
+			{
+				"title": "Kotisivu",
+				"url": "/kosminen-vuoropuhelu/1.html"
+			}
+		]
+	},
+	{
+		"name": "rediam",
+		"title": "Rediam",
+		"type": "fiktiivinen planeetta",
+		"year": "2013",
+		"categories": ["2013", "universumit"],
+		"summary": ["Rediam on planeetta, jonka asukkaat puhuvat mm. tjaldin ja herimatin kieliä."],
+		"description": [
+			[
+				"Rediam on fiktiivinen planeetta, jonka historiaa, kulttuuria ja kieliä olen kehittänyt tulevia projekteja varten."
+			]
+		],
+		"links": [
+			{
+				"title": "Kotisivu",
+				"url": "/rien/rediam.html"
+			}
+		]
+	},
+	{
+		"name": "sardiinirasia",
+		"title": "Sardiinirasia",
+		"type": "kirja",
+		"year": "2015",
+		"categories": ["2015", "kirjat"],
+		"summary": ["Tulevaisuuteen sijoittuva romaani."],
+		"description": [
+			[
+				"Sardiinirasia on tulevaisuuden Suomeen sijoittuva romaani, jonka kirjoitin vuoden 2015 NaNoWriMo-kilpailua varten.",
+				"Se kertoo naapureista Sanna Virrasta ja Teemu Laitalasta, jotka pakenevat kotikaupunkiinsa tehtyä terrori-iskua",
+				"ja joutuvat myöhemmin poliisien jahtaamiksi."
+			],
+			[
+				"Kirja on melko viimeistelemätön."
+			]
+		],
+		"quote": [
+			[
+				"Hän heräsi kirkkaaseen valoon, joka loisti takapenkin leveistä ikkunoista.",
+				"Muistettuaan, missä oli, hän tiiraili eteen nähdäkseen Sannan, mutta joutui pettymykseen todeta olevansa tyhjässä autossa.",
+				"Hän ponnahti istumaan ja yritti tunnistaa sijaintiaan."
+			],
+			[
+				"Ulkona oli selvästi päivä. Ikkunasta näkyi asfaltoitu piha ja pieni puinen rakennus.",
+				"Vihanta niitty ulottautui kauas aidan ulkopuolelle ja rajautui metsään jossain kaukana.",
+				"Mökin, joka oli punainen ja suippokattoinen, takana oli jonkinlainen parkkipaikan tapainen."
+			],
+			[
+				"Sanna seisoi pihalla muovikassi kädessään.",
+				"Hän kätteli laihaa miestä, joka oli pukeutunut lippalakkiin ja ruutupaitaan.",
+				"He puhuivat jotain, minkä jälkeen Sanna tuli autolle, avasi oven ja veti Teemun ulos."
+			]
+		],
+		"links": [
+			{
+				"title": "Versio 1 (PDF)",
+				"url": "/tiedostot/sardiinirasia.pdf"
+			}
+		]
+	},
+	{
+		"name": "tjald",
+		"title": "Tjald",
+		"type": "fiktiivinen kieli",
+		"year": "2013",
+		"categories": ["2013", "kielet"],
+		"summary": ["Keinotekoinen kieli."],
+		"description": [
+			[
+				"Tjald on keinotekoinen kieli, johon olen kehittänyt sanaston ja kieliopin.",
+				"Se on osa Rediam-universumia."
+			]
+		],
+		"quote": [
+			[
+				"Hernût \"oghadtem geprundmse. ko nejaomese, sest levidtest hadma lemese\" Adriken junnasteeva."
+			],
+			[
+				"Adrik herpidtem heghaneeva. ko pidtem nejaoneeva, Adrik muutest tidtalni jelma amasimige gholineeva."
+			],
+			[
+				"Adrik \"hermajadt anmûr herpidtjel, nertni anaghar. jomadt amasnist tur elilla proponasmige, noram vilneva\" juntaneeva,",
+				"Hernût kunnaneevani, delmaneevani. nest amaneeva gal nist. ko hadt, tidtadtem belemeva. vienadt vakkamevaha."
+			]
+		],
+		"links": [
+			{
+				"title": "Kotisivu",
+				"url": "/kielet/tjald.html"
+			}
+		]
+	}
+]

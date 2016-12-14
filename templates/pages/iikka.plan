@@ -1,0 +1,9 @@
+| block title |Iikka Hauhio| end |
+
+| block content |
+	<p>
+		Iikka Hauhio on suomalainen opiskelija, joka ylläpitää tätä sivustoa.
+	</p>
+| end |
+
+| include "templates/_page.plan" |

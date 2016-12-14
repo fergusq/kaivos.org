@@ -1,0 +1,404 @@
+[
+	{
+		"name": "asgård",
+		"title": "Asgård",
+		"type": "peli",
+		"year": "~2014",
+		"language": "C++",
+		"categories": ["2014", "pelit"],
+		"summary": ["Roguetyyppinen tekstipohjainen peli."],
+		"description": [
+			[
+				"Asgård on roguetyyppinen vuoropohjainen roolipeli, jossa pelaaja taistelee hirviöitä vastaan pimeässä labyrintissä.",
+				"Se on tällä hetkellä enemmän pelimoottori kuin varsinainen peli."
+			]
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (C++)",
+				"url": "https://github.com/fergusq/asgard"
+			}
+		]
+	},
+	{
+		"name": "fortob",
+		"title": "Fortob",
+		"type": "esoteerinen ohjelmointikieli",
+		"year": "2014",
+		"language": "Java",
+		"categories": ["2014", "esoteeriset_ohjelmointikielet"],
+		"summary": ["Kieli, jonka suunnittelun tavoite oli mahdollisimman ruma syntaksi."],
+		"description": [
+			[
+				"Fortob on edellisen <a href=\"http://esolangs.org/wiki/Forobj\">Forobj-kieleni</a> seuraaja.",
+				"Suunnittelun tavoite oli luoda kielelle mahdollisimman ruma syntaksi, mutta ei kuitenkaan täysin kryptinen.",
+				"Onnistuin mielestäni suhteellisen hyvin: koodi näyttää tarpeeksi rumalta niin, että se alkaa olla kaunista."
+			],
+			[
+				"Suuri osa kielen estetiikasta juontuu siitä, että Fortob on oikeasti pinopohjainen konkatenatiivinen kieli.",
+				"\"Infix\"-operaattorit on luotu käyttäen hyväksi ominaisuutta, joka sallii komentojen \"katsoa mitä koodissa on seuraavaksi\".",
+				"Kieltä on mahdotonta parsia suorittamatta sitä, koska osa syntaksista luodaan suorituksenaikaisesti."
+			]
+		],
+		"example": [
+			"$i = '0\\;\n",
+			"[$i < '1 0].while: [\n",
+			"	$i = $i + '1\\\\;\n",
+			"	$i p;\n",
+			"]\\;"
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (Java)",
+				"url": "https://github.com/fergusq/fortob"
+			},
+			{
+				"title": "Esolangs-artikkeli",
+				"url": "http://esolangs.org/wiki/Fortob"
+			}
+		]
+	},
+	{
+		"name": "goldfish",
+		"title": "Goldfish",
+		"type": "esoteerinen ohjelmointikieli",
+		"year": "2014",
+		"language": "C++",
+		"categories": ["2014", "esoteeriset_ohjelmointikielet"],
+		"description": [
+			[
+				"Goldfish on esoteerinen ohjelmointikieli, joka perustuu <a href=\"http://esolangs.org/wiki/Deadfish_i\">Deadfish i -ohjelmointikieleen</a>.",
+				"Goldfish on uskoakseni Turing-täydellinen, mutta en ole vielä keksinyt, miten sillä voisi järkevästi kirjoittaa ohjelmia."
+			],
+			[
+				"Ohjelmaa suoritettaessa Goldfish-tulkki luo kaksi taulua: funktiotaulun ja muuttujataulun.",
+				"Funktioita voi siirtää indeksistä toiseen, mutta muuttujia ei voi.",
+				"Funktiota kutsuttaessa käytössä on funktiolle annettu argumentti sekä se muuttuja, joka on muuttujataulussa ",
+				"samassa indeksissä, missä nykyinen funktio on."
+			]
+		],
+		"example": [
+			"0 rc\n",
+			"48 iisiiisdoh\n",
+			"49 niisiiisoc"
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (C++)",
+				"url": "http://www.kaivos.org/doc/goldfish.cpp"
+			},
+			{
+				"title": "Esolangs-artikkeli",
+				"url": "http://esolangs.org/wiki/Goldfish"
+			}
+		]
+	},
+	{
+		"name": "java-nightfall",
+		"title": "Java-Nightfall",
+		"type": "peli",
+		"year": "2015",
+		"language": "Java",
+		"categories": ["2015", "pelit"],
+		"summary": ["Klooni The Nightfall Incidentistä, vuoropohjaisesta strategiapelistä."],
+		"description": [
+			[
+				"Java-Nightfall on fork samannimisestä alkuperäisestä keskeneräisestä projektista.",
+				"Suurin osa koodista ei ole siis minun tekemääni, vaikka olenkin toteuttanut monta tärkeää ominaisuutta.",
+				"Peli on klooni LEGO:n julkaisemasta hakkerointiteemaisesta pelistä Spybot: The Nightfall Incident ja se on lajityypiltään",
+				"vuoropohjainen strategiapeli."
+			],
+			[
+				"Pelaajan tavoite on ohjata \"ohjelmia\" ruudukossa ja tappaa vastustajan ohjelmat.",
+				"Jokainen ohjelma koostuu useasta ruudusta ja kasvattaa taakseen \"häntää\" vähän kuin matopelissä."
+			]
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Java)",
+				"url": "https://github.com/fergusq/java-nightfall"
+			}
+		]
+	},
+	{
+		"name": "phl",
+		"title": "Proceed High Language 1.2",
+		"type": "ohjelmointikieli",
+		"year": "2012",
+		"language": "Java",
+		"categories": ["2012", "ohjelmointikielet"],
+		"summary": ["Ei kovin erikoinen käännettävä ohjelmointikieli."],
+		"description": [
+			[
+				"PHL on eräs ensimmäisiä ohjelmointikieliäni. Se kääntyy PIL-väliaikaiskielelle ja siitä C:ksi tai assemblyksi.",
+				"Se on melko huonostu ohjelmoitu. PHL-kehitysympäristön asentaminen ei ole välttämättä kovin yksinkertaista."
+			]
+		],
+		"example": [
+			"var evens =\n",
+			"    (1..100).filter (\n",
+			"    	#(i) i%2 == 0\n",
+			"    );"
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (Java)",
+				"url": "https://github.com/fergusq/phl"
+			},
+			{
+				"title": "Standardikirjasto",
+				"url": "https://github.com/fergusq/phl-standard-library"
+			}
+		]
+	},
+	{
+		"name": "plan",
+		"title": "Plan",
+		"type": "esikääntäjä",
+		"year": "2016",
+		"language": "Röda",
+		"categories": ["2016", "ohjelmistot"],
+		"summary": ["Kevyt esikääntäjä, jolla tämäkin sivusto on luotu."],
+		"description": [
+			[
+				"Plan on kevyt esikääntäjä, joka on tarkoitettu html-mallineiden käsittelyyn.",
+				"Se on osa Rödan internet-kirjastoa."
+			],
+			[
+				"Plan julkaistiin joulukuussa 2016. Muun muassa tämä sivusto on generoitu Planilla."
+			]
+		],
+		"example": [
+			"&lt;h1&gt;&#124;page.title&#124;&lt;/h1&gt;\n",
+			"\n",
+			"&#124; for paragraph in page.content &#124;\n",
+			"	&lt;p&gt;&#124;paragraph&#124;&lt;/p&gt;\n",
+			"&#124; end &#124;"
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Röda)",
+				"url": "https://github.com/fergusq/plan"
+			}
+		]
+	},
+	{
+		"name": "pscript",
+		"title": "PScript",
+		"type": "ohjelmointikieli",
+		"year": "2016",
+		"language": "Haskell",
+		"categories": ["2016", "ohjelmointikielet"],
+		"summary": ["Olio-ohjelmointikieli, jossa jokainen metodi on abstraktoitu omaan ylätyyppiinsä."],
+		"description": [
+			[
+				"PScript on harjoituksena toteuttamani ohjelmointikieli, jonka suurin innoittaja on Rust-kieli.",
+				"Sen hienoin ominaisuus on malleiksi kutsutut tyypit, jotka ovat vähän kuin rajapinnat Javassa mutta eivät aivan.",
+				"Malleihin perustuva tyyppijärjestelmä mahdollistaa eri toimintojen abstraktoinnin viemisen äärimmäisyyksiin,",
+				"mikä tekee tyyppihierarkiasta monimutkaisen mutta kauniin: jokainen metodi on määritelty omassa mallissaan.",
+				"Vaikkei kielestä ole juuri käytännön hyötyä, se onnistuu tehtävässään harjoituksena."
+			],
+			[
+				"PScript julkaistiin vuonna 2016."
+			]
+		],
+		"example": [
+			"model Squarable {\n",
+			"	$ square();\n",
+			"}\n",
+			"\n",
+			"extend Int with Squarable {\n",
+			"	Int square() {\n",
+			"		return this*this;\n",
+			"	}\n",
+			"}"
+
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (Haskell)",
+				"url": "https://github.com/fergusq/pscript"
+			}
+		]
+	},
+	{
+		"name": "responda",
+		"title": "Responda",
+		"type": "verkko-ohjelma",
+		"year": "2016",
+		"language": "Python",
+		"categories": ["2016", "verkko-ohjelmat"],
+		"summary": ["Vastaamiseen perustuva sosiaalisen median alusta."],
+		"description": [
+			[
+				"Responda on harjoitustyönä ohjelmoitu viestipalvelu, jossa jokainen lähetetty viesti on vastaus johonkin edelliseen viestiin."
+			],
+			[
+				"Responda julkaistiin vuonna 2016."
+			]
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Python ja Django)",
+				"url": "https://github.com/fergusq/responda"
+			},
+			{
+				"title": "Live-versio",
+				"url": "http://r.kaivos.org"
+			}
+		]
+	},
+	{
+		"name": "röda",
+		"title": "Röda",
+		"type": "ohjelmointikieli",
+		"year": "2015",
+		"language": "Java",
+		"categories": ["2015", "ohjelmointikielet"],
+		"summary": ["Edistynyt skriptikieli, jonka erikoisuus on sisäänrakennettu tuki virroille."],
+		"description": [
+			[
+				"Röda on edistynyt skriptikieli, joka yhdistää ominaisuuksia Bourne Shellistä, Pythonista ja muista komentosarjakielistä.",
+				"Se tukee sisäänrakennettuna ominaisuutena virtoja, jotka mahdollistavat sekventiaalisen datan käsittelyn helposti ja vaivattomasti.",
+				"Röda on yleiskäyttöinen, mutta sitä käytetään eniten tiedostojen käsittelyyn, tiedon jäsentelyyn sekä etsimiseen ja verkko-ohjelmointiin."
+			],
+			[
+				"Röda julkaistiin joulukuussa 2015."
+			]
+		],
+		"example": [
+			"function main(file) {\n",
+			"	linenum := 0\n",
+			"	readLines(file) &#124; for line do\n",
+			"		print(linenum..\" \"..line)\n",
+			"		linenum ++\n",
+			"	done\n",
+			"}"
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (Java)",
+				"url": "https://github.com/fergusq/roda"
+			},
+			{
+				"title": "Dokumentaatio",
+				"url": "http://kaivos.org/~iikka/röda/doc"
+			}
+		]
+	},
+	{
+		"name": "sve",
+		"title": "Sve",
+		"type": "ohjelmointikieli",
+		"year": "~2012",
+		"language": "mm. JavaScript",
+		"categories": ["2012", "ohjelmointikielet"],
+		"summary": ["Skriptikieli, jossa kaikki arvot, myös luvut, ovat myös hajautustauluja."],
+		"description": [
+			[
+				"Sve on melko tavanomainen skriptikieli, jonka erikoisin ominaisuus on sen mukautuvat muuttujaympäristöt.",
+				"Kieli on suunniteltu helpottamaan laajennosten kirjoittamista mm. peleihin ja sitä on käytetty",
+				"julkisissa kymmenien pelaajien Minecraft-palvelimissa pelimekaniikan ylläpitämiseen ja minipelien rakentamiseen."
+			],
+			[
+				"Olen toteuttanut Sven sekä Javalla että JavaScriptillä. Sven ensimmäinen versio otetiin käyttöön vuonna 2012."
+			]
+		],
+		"example": [
+			"def: do10times(task)\n",
+			"	for: local i = 0, i &lt; 10, i++\n",
+			"		task::i\n",
+			"\n",
+			"\n",
+			"do10times::def(i) print::i"
+		],
+		"links": [
+			{
+				"title": "Kotisivu",
+				"url": "http://sve.kaivos.org/"
+			},
+			{
+				"title": "Toteutuksen lähdekoodi (Java)",
+				"url": "https://github.com/fergusq/sve"
+			},
+			{
+				"title": "Svetiedostokirjasto",
+				"url": "https://github.com/fergusq/sve-library"
+			}
+		]
+	},
+	{
+		"name": "sycpol",
+		"title": "SYCPOL",
+		"type": "esoteerinen ohjelmointikieli",
+		"year": "2014",
+		"language": "Java",
+		"categories": ["2014", "esoteeriset_ohjelmointikielet"],
+		"summary": ["Kieli, jonka koodi on kirjoitettava kortteihin ja syötettävä kortinlukukoneeseen."],
+		"description": [
+			[
+				"SYCPOL (System card programming language) on nostalginen esoteerinen ohjelmointikieli,",
+				"jonka syntaksi perustuu \"järjestelmäkortteihin\".",
+				"Koodi kirjoitetaan <i>jotenkin</i> (ei ole selvää miten) fyysisille korteille, jotka syötetään tietokoneeseen.",
+				"Nykypäivänä voimme valitettavasti ainoastaan simuloida SYCPOL-koneita."
+			],
+			[
+				"SYCPOLin virallinen toteutus on Javalla kirjoitettu tulkki VISCIM-JA. Kieli julkaistiin vuonna 2014."
+			]
+		],
+		"example": [
+			"PROGRAM           CARD\n",
+			"STANDARD SYSTEM CARD I\n",
+			"\n",
+			"MAIN         PROCEDURE\n",
+			"(1) PROCEED TO !PS\n",
+			"      WITH ARGUMENTS\n",
+			"        .TEXT\n",
+			"        .OUTPUT\n",
+			"(2) RETURN\n",
+			"      WITH SUCCESS"
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Java)",
+				"url": "https://github.com/fergusq/viscimja"
+			},
+			{
+				"title": "Esolangs-artikkeli",
+				"url": "http://esolangs.org/wiki/SYCPOL"
+			}
+		]
+	},
+	{
+		"name": "twocode",
+		"title": "Twocode",
+		"type": "esoteerinen ohjelmointikieli",
+		"year": "2014",
+		"language": "Sve",
+		"categories": ["2014", "esoteeriset_ohjelmointikielet"],
+		"summary": ["Kaksiulotteinen ohjelmointikieli, jossa ohjausrakenteet ovat kaksiulotteisia ja varsinaiset toiminnot yksiulotteisia."],
+		"description": [
+			[
+				"Twocode on kaksiulotteinen esoteerinen ohjelmointikieli, joka koostuu kaksiulotteisista ohjausrakenteista ja yksiulotteisista komennoista."
+			],
+			[
+				"Kieli julkaistiin vuonna 2014. Sen toteutus on kirjoitettu Svellä."
+			]
+		],
+		"example": [
+			"{ i~0;                 /={i~i+1}============\\\n",
+			"  *i~\"Hello world\\n\" }=>={putc(*i)}={!*i}=S=/\n",
+			"                                          #"
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (Sve)",
+				"url": "http://esolangs.org/wiki/Twocode/Doublecode"
+			},
+			{
+				"title": "Esolangs-artikkeli",
+				"url": "http://esolangs.org/wiki/Twocode"
+			}
+		]
+	}
+]

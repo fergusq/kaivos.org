@@ -1,0 +1,21 @@
+| block title self.title end |
+
+| block content |
+	<p>|self.type|, |self.year|</p>
+	| ifdef self.example |
+		<pre class="codebox">|for e in self.example e end|</pre>
+	| end |
+	| for p in self.description |
+		<p>|for s in p s | | end|</p>
+	| end |
+	| ifdef self.links |
+		<h2>Linkkejä</h2>
+		<ul>
+			| for link in self.links |
+				<li>|link.title|: <a href="|link.url|">|link.url|</a>
+			| end |
+		</ul>
+	| end |
+| end |
+
+| include "templates/_page.plan" |

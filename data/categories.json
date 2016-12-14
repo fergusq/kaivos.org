@@ -1,0 +1,109 @@
+[
+	{
+		"name": "yläkategoriat",
+		"title": "Yläkategoriat",
+		"flags": ["allow_subcategories"]
+	},
+	{
+		"_comment": "=== VUODET ===",
+		
+		"name": "vuodet",
+		"title": "Vuodet",
+		"categories": ["yläkategoriat"],
+		"flags": ["allow_subcategories"]
+	},
+	{
+		"name": "1998",
+		"title": "1998",
+		"categories": ["vuodet"]
+	},
+	{
+		"name": "2012",
+		"title": "2012",
+		"categories": ["vuodet"]
+	},
+	{
+		"name": "2013",
+		"title": "2013",
+		"categories": ["vuodet"]
+	},
+	{
+		"name": "2014",
+		"title": "2014",
+		"categories": ["vuodet"]
+	},
+	{
+		"name": "2015",
+		"title": "2015",
+		"categories": ["vuodet"]
+	},
+	{
+		"name": "2016",
+		"title": "2016",
+		"categories": ["vuodet"]
+	},
+	{
+		"_comment": "=== OHJELMISTOT ===",
+		
+		"name": "ohjelmistot",
+		"title": "Ohjelmistot",
+		"categories": ["yläkategoriat"],
+		"flags": ["allow_subcategories"]
+	},
+	{
+		"name": "ohjelmointikielet",
+		"title": "Ohjelmointikielet",
+		"categories": ["ohjelmistot"],
+		"flags": ["allow_subcategories"]
+	},
+	{
+		"name": "esoteeriset_ohjelmointikielet",
+		"title": "Esoteeriset ohjelmointikielet",
+		"categories": ["ohjelmointikielet"]
+	},
+	{
+		"name": "pelit",
+		"title": "Pelit",
+		"categories": ["ohjelmistot"]
+	},
+	{
+		"name": "verkko-ohjelmat",
+		"title": "Verkko-ohjelmat",
+		"categories": ["ohjelmistot"]
+	},
+	{
+		"_comment": " === KIRJALLISUUS ===",
+		
+		"name": "kirjallisuus",
+		"title": "Kirjallisuus",
+		"categories": ["yläkategoriat"],
+		"flags": ["allow_subcategories"]
+	},
+	{
+		"name": "kielet",
+		"title": "Fiktiiviset kielet",
+		"categories": ["kirjallisuus"]
+	},
+	{
+		"name": "universumit",
+		"title": "Fiktiiviset universumit",
+		"categories": ["kirjallisuus"]
+	},
+	{
+		"name": "kirjat",
+		"title": "Kirjat",
+		"categories": ["kirjallisuus"]
+	},
+	{
+		"name": "sarjakuvat",
+		"title": "Sarjakuvat",
+		"categories": ["kirjallisuus"]
+	},
+	{
+		"_comment": " === MUUT ===",
+		
+		"name": "henkilöt",
+		"title": "Henkilöt",
+		"categories": ["yläkategoriat"]
+	}
+]

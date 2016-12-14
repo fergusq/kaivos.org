@@ -1,0 +1,35 @@
+| block title self.title end |
+| block content |
+	| ifdef self.description |
+		| for p in self.description |
+			<p>|for s in p s " " end|</p>
+		| end |
+	| end |
+	| ifdef self.flags if "allow_subcategories" in self.flags |
+		<p>Alakategoriat:</p>
+		<ul>
+		| for page in self.pages |
+			| if page.pageclass eq |categories| |
+				<li><a href="|root page.path|">|page.title|</a></li>
+			| end |
+		| end |
+		</ul>
+	| end end |
+	<p>Sivut tässä kategoriassa:</p>
+	<ul>
+	| for page in self.pages |
+		| ifn page.pageclass eq "categories" |
+			<li>
+				<strong><a href="|root page.path|">|page.title|<a></strong>
+				| ifdef page.year | (|page.year|) | end |
+				<p>
+				| ifdef page.summary |
+					| for p in page.summary " " p end |
+				| end |
+				</p>
+			</li>
+		| end |
+	| end |
+	</ul>
+| end |
+| include "templates/_page.plan" |

@@ -1,0 +1,37 @@
+| block title "Kosminen vuoropuhelu" end |
+
+| block additional_head |
+<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+| end |
+
+| block content |
+	<div class="comic-nav">
+		| ifdef self.previous |
+			<a href="|root comics.first_1.0.path|">&lt;&lt;</a> ·
+			<a href="|root comics_map[self.previous].path|">&lt;</a> ·
+		| end |
+		|self.date| (#|self.name|)
+		| ifdef self.next |
+			· <a href="|root comics_map[self.next].path|">&gt;</a>
+			· <a href="|root comics.last_1.0.path|">&gt;&gt;</a>
+		| end |
+		
+	</div>
+	<h2 class="comic-title">|self.title|</h2>
+	<div class="flex-container" title="|self.alt_text|">
+	| for panel in self.panels |
+		<div class="flex-panel comic-panel" style="text-align:|panel.align|;">
+			<span class="panel-text">|for part in panel.text part " " end|</span>
+			<div class="flex-container character-container">
+			| for character_img in panel.characters |
+				<div class="character-panel">
+					<img src="|root|static/kosminen-vuoropuhelu/|character_img|" />
+				</div>
+			| end |
+			</div>
+		</div>
+	| end |
+	</div>
+| end |
+
+| include "templates/_page.plan" |

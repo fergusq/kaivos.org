@@ -1,0 +1,39 @@
+{
+	"pageclasses": [
+		{
+			"name": "top_pages",
+			"dir": "",
+			"datafile": "top_pages.json"
+		},
+		{
+			"name": "pages",
+			"dir": "sivut",
+			"datafile": "pages.json"
+		},
+		{
+			"name": "comics",
+			"dir": "kosminen-vuoropuhelu",
+			"templatefile": "comics/_comic.plan",
+			"datafile": "comics.json"
+		},
+		{
+			"name": "programming_projects",
+			"dir": "ohjelmointi",
+			"templatefile": "programming_projects/_project.plan",
+			"datafile": "programming_projects.json"
+		},
+		{
+			"name": "literature_projects",
+			"dir": "kirjallisuus",
+			"templatefile": "literature_projects/_project.plan",
+			"datafile": "literature_projects.json"
+		},
+		{
+			"name": "categories",
+			"dir": "kategoriat",
+			"templatefile": "categories/_category.plan",
+			"datafile": "categories.json",
+			"collectkey": "categories"
+		}
+	]
+}

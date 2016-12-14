@@ -1,0 +1,143 @@
+[
+	{
+		"name": "1",
+		"title": "Nymfit",
+		"date": "2016-12-14",
+		"next": "2",
+		"panels": [
+			{
+				"text": ["Katsoin juuri \"Nymfit\" internetistä."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": ["Sen asetelma on mahdollisimman keinotekoinen..."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [
+					"Osa naisista on salaa <b>nymfejä</b>, joiden on harrastettava seksiä kuukausittain välttyäkseen kuolemalta.",
+					"Lisäksi heidän seksikumppaninsa menettävät henkensä prosessissa.",
+					"Hyvää tarkoittavien päähenkilöiden on siis <u>pakko</u> vietellä ja tappaa viattomia selvitäkseen hengissä."
+				],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [
+					"Nymfin miespuolinen vastine on satyyri, joka ei kuole seksiin nymfin kanssa.",
+					"Jotkut nymfit ja satyyrit seurustelevat ja voivat elää tappamatta ketään.",
+					"Kuitenkin suuri osa satyyreistä <b>jahtaa ja kaappaa</b> nymfejä selittämättömiin tarkoituksiin,",
+					"ilmeisesti silkasta pahuudesta. Lisäksi satyyrit hallitsevat poliiseja ja muita viranomaisia jollakin tavalla.",
+					"Miten he ovat päässeet maailman herroiksi? Sarja on täysin järjetön."
+				],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [
+					"Koko ohjelman pointti tuntuu olevan, että siinä on viehättäviä seksinnälkäisiä nuoria naisia..."
+				],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [
+					"Ällöttävää."
+				],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [
+					"En voi väittää, etteikö tuo olisi yksi puoli."
+				],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right"
+			},
+			{
+				"text": [
+					"Sarjan voi kuitenkin ajatella toisinkin.",
+					"On yleinen käsitys, että naisten seksuaalisuus on vaarallista,",
+					"joten miesten on tukahdutettava se vaikka pitämällä naisia vankeina.",
+					"\"Nymfeissä\" tämä virheellinen premissi on hyväksytty – jopa kuolettavan konkreettisena.",
+					"Tästä huolimatta harva katsoja voi hyväksyä satyyrien harjoittamaa vainoa,",
+					"mikä asettaa outoon valoon pyrkimykset hallita tavallisiakin ei-tappavia naisia."
+				],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right"
+			},
+			{
+				"text": [
+					"Ethän sinä ole edes vielä katsonut koko sarjaa..."
+				],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [
+					"Entä sitten? On helppoa keksiä \"syvällisiä\" tulkintoja mistä vain ohjelmasta."
+				],
+				"characters": ["vihreä_ppp.png", "oranssi_puhuu.png"],
+				"align": "right"
+			}
+		],
+		"alt_text": "Nymfit on herkkua suomen kielen ystäville, sillä siinä myös ulkomaalaiset puhuvat suomea. Muita kieliä ei ole olemassa."
+	},
+	{
+		"name": "2",
+		"title": "Palvelus",
+		"date": "2016-12-14",
+		"previous": "1",
+		"panels": [
+			{
+				"text": [
+					"<b>Eräänä päivänä.</b><br/><br/>",
+					"Hei, sinulla on aika paljon töitä. Voin auttaa ja tarkistaa nuo raportit, jos käy."
+				],
+				"characters": ["sininen_puhuu.png", "vihreä.png"],
+				"align": "left"
+			},
+			{
+				"text": ["Toki käy. :) Se olisi tosi mukavaa."],
+				"characters": ["sininen.png", "vihreä_puhuu.png"],
+				"align": "right"
+			},
+			{
+				"text": [
+					"<b>Myöhemmin.</b><br/><br/>",
+					"Sininen ei vastaa viesteihini... Onkohan hän tehnyt ne työt, jotka sanoi tekevänsä. Toivottavasti."
+				],
+				"characters": ["vihreä_puhuu.png"],
+				"align": "center"
+			},
+			{
+				"text": ["Hei! Raporttisi ovat tarkistamatta ja pomo on vihainen."],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right"
+			},
+			{
+				"text": ["Sininen sanoi tarkistavansa ne..."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": ["Hah. Ei häneen voi luottaa. Oma syysi jos saat alennuksen."],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right"
+			},
+			{
+				"text": ["Mutta..."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left"
+			},
+			{
+				"text": [""],
+				"characters": ["vihreä.png", "oranssi.png"],
+				"align": "center"
+			}
+		],
+		"alt_text": "Se oli kummankin syy."
+	}
+]

@@ -1,0 +1,27 @@
+| block title |Etusivu| end |
+
+| block content |
+	<p>
+		Kaivos.org on <a href="|root pages_map.iikka.path|">Iikka Hauhion</a> kotisivusto, joka sisältää erilaisia hänen ylläpitämiään sisältöjä.
+	</p>
+	<h2>Sivuston rakenne</h2>
+	<p>Kaivos.org koostuu seuraavista alasivustoista:</p>
+	<ul>
+		<li><code>http://kaivos.org/</code>
+			Eräänlainen katalogi tekemistäni projekteista.</li>
+		<li><code>http://kaivos.org/~iikka/</code>
+			"Yksityisiä" tiedostoja, joihin ei ole linkkejä pääsivulta.
+			Osa on keskeneräisiä, osa tekijänoikeuden suojaamia, osa piilotettu muista syistä.
+			Ei kuitenkaan mitään erityisen salaista.</li>
+		<li><code>http://kaivos.org/kielet/</code>
+			Fiktiivisten kielten kansio.</li>
+		<li><code>http://kaivos.org/rien/</code>
+			Fiktiivisten maailmojen kansio.</li>
+		<li><code>http://sve.kaivos.org/</code>
+			Sve-kielen kotisivu.</li>
+		<li><code>http://r.kaivos.org/</code>
+			Responda-projektin kotisivu.</li>
+	</ul>
+| end |
+
+| include "templates/_page.plan" |

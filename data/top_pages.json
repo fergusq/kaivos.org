@@ -1,0 +1,12 @@
+[
+	{
+		"name": "index",
+		"title": "Etusivu",
+		"templatefile": "top_pages/index.plan"
+	},
+	{
+		"name": "projektit",
+		"title": "Projektit",
+		"templatefile": "top_pages/projects.plan"
+	}
+]
