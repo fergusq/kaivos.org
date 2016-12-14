@@ -81,6 +81,10 @@ div.over {
 		padding-left: 4px;
 		padding-right: 4px;
 	}
+	
+	.small-screens {
+		display: none;
+	}
 }
 
 footer {

@@ -32,6 +32,9 @@
 		</div>
 	| end |
 	</div>
+	<div class="small-screens">
+		<p><b>Alt:</b> |self.alt_text|</p>
+	</div>
 | end |
 
 | include "templates/_page.plan" |
