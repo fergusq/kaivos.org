@@ -213,9 +213,17 @@ div.comic-panel {
 	padding: 20px;
 	border: 1px solid #bbb;
 	position: relative;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 615px) {
+	div.half-panel {
+		max-width: 50%;
+	}
 }
 
 div.character-container {
+	flex-wrap: nowrap;
 }
 
 div.character-panel {

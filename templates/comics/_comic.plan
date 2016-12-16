@@ -20,7 +20,7 @@
 	<h2 class="comic-title">|self.title|</h2>
 	<div class="flex-container" title="|self.alt_text|">
 	| for panel in self.panels |
-		<div class="flex-panel comic-panel" style="text-align:|panel.align|;">
+		<div class="flex-panel comic-panel |ifdef panel.class panel.class end|" style="text-align:|panel.align|;">
 			<span class="panel-text">|for part in panel.text part " " end|</span>
 			<div class="flex-container character-container">
 			| for character_img in panel.characters |

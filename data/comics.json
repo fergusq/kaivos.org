@@ -90,6 +90,7 @@
 		"title": "Palvelus",
 		"date": "2016-12-14",
 		"previous": "1",
+		"next": "3",
 		"panels": [
 			{
 				"text": [
@@ -139,5 +140,65 @@
 			}
 		],
 		"alt_text": "Se oli kummankin syy."
+	},
+	{
+		"name": "3",
+		"title": "Saavutukset",
+		"date": "2016-12-15",
+		"previous": "2",
+		"panels": [
+			{
+				"text": ["Pomo näytti minulle eilen vanhoja kuvia kouluajoilaan kolmenkymmenen vuoden takaa."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Hän jää pian eläkkeelle, kun minä olen vasta valmistunut koulusta. Silloin tajusin, kuinka <u>vanha</u> hän onkaan..."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Ajattele, pian mekin olemme vanhoja. Pian mekin jäämme eläkkeelle, vaikka olemme vasta valmistuneet."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left",
+				"class": "half-panel"
+			},
+			{
+				"text": [
+					"Se on kauheaa! En halua tehdä samaa työtä kolmeakymmentä vuottaja jäädä eläkkeelle.",
+					"Haluan saavuttaa jotain elämälläni!"
+				],
+				"characters": ["vihreä_puhuu.png", "oranssi_ppp.png"],
+				"align": "left",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Eikö pomo sinun mielestäsi ole muka saavuttanut mitään?"],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"text": ["No en minä sitä tarkoita..."],
+				"characters": ["vihreä_puhuu.png", "oranssi.png"],
+				"align": "left",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Arvostettu osastonjohtaja, aktiivinen ammattiyhdistystoimija, välittävä vanhempi..."],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Pomo ei tule ilahtumaan tästä."],
+				"characters": ["vihreä.png", "oranssi_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			}
+		],
+		"alt_text": "On surullinen fakta, että suurin osa ihmisistä ei saavuta koskaan mitään merkittävää."
 	}
 ]
