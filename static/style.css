@@ -209,11 +209,19 @@ div.comic-nav {
 }
 
 div.comic-panel {
-	font-family: 'Kalam', cursive;
 	padding: 20px;
 	border: 1px solid #bbb;
 	position: relative;
 	box-sizing: border-box;
+}
+
+div.panel-text {
+	font-family: 'Kalam', cursive;
+	display: inline;
+}
+
+div.panel-text p {
+	margin: 0px;
 }
 
 @media screen and (min-width: 615px) {
@@ -228,4 +236,22 @@ div.character-container {
 
 div.character-panel {
 	align-self: flex-end;
+	text-align: center;
+}
+
+div.character-text {
+	display: block;
+	font-family: 'Kalam', cursive;
+	width: 100%;
+	margin-top: 20px;
+}
+
+div.character-text p {
+	margin: 0px;
+}
+
+.bubble {
+	border: 1px solid #000;
+	border-radius: 50%;
+	padding: 10%;
 }

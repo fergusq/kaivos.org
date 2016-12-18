@@ -146,9 +146,10 @@
 		"title": "Saavutukset",
 		"date": "2016-12-15",
 		"previous": "2",
+		"next": "4",
 		"panels": [
 			{
-				"text": ["Pomo näytti minulle eilen vanhoja kuvia kouluajoilaan kolmenkymmenen vuoden takaa."],
+				"text": ["Pomo näytti minulle eilen vanhoja kuvia kouluajoiltaan kolmenkymmenen vuoden takaa."],
 				"characters": ["vihreä_puhuu.png", "oranssi.png"],
 				"align": "left",
 				"class": "half-panel"
@@ -167,7 +168,7 @@
 			},
 			{
 				"text": [
-					"Se on kauheaa! En halua tehdä samaa työtä kolmeakymmentä vuottaja jäädä eläkkeelle.",
+					"Se on kauheaa! En halua tehdä samaa työtä kolmeakymmentä vuotta ja jäädä eläkkeelle.",
 					"Haluan saavuttaa jotain elämälläni!"
 				],
 				"characters": ["vihreä_puhuu.png", "oranssi_ppp.png"],
@@ -200,5 +201,80 @@
 			}
 		],
 		"alt_text": "On surullinen fakta, että suurin osa ihmisistä ei saavuta koskaan mitään merkittävää."
+	},
+	{
+		"name": "4",
+		"title": "Virtuaalinen seurustelu",
+		"date": "2016-12-18",
+		"previous": "3",
+		"panels": [
+			{
+				"text": ["Joskus kulutan aikaa vierailemalla satunnaisilla Minetest-palvelimilla."],
+				"characters": ["oranssi.png", "vihreä_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Kerran toinen pelaaja lähestyi minua kummallisella asialla."],
+				"characters": [{"text": "Wanna date?", "img": "xenia_puhuu.png", "class": "bubble"}, "vihreä_kkk.png"],
+				"align": "center",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Hän toi minulle kukkia ja vei minut sitten omaan virtuaaliseen taloonsa. Sain oman huoneenkin."],
+				"characters": ["oranssi.png", "vihreä_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"text": ["Sitten katsoimme televisiota. Siitä ei tietenkään oikeasti näkynyt mitään ja olimme vain hiljaa useita minuutteja."],
+				"characters": ["oranssi.png", "vihreä_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"characters": [
+					{"text": "Ehkä sinun olisi pitänyt puhua hänelle?", "img": "oranssi_puhuu.png"},
+					{"text": "Ehkä...", "img": "vihreä_puhuu.png"}
+				],
+				"align": "left",
+				"class": "half-panel"
+			},
+			{
+				"text": [
+					"Myöhemmin sain kuulla, että monet \"deittausta\" harrastavat pelaajat ovat alle 15 -vuotiaita,",
+					"jotka eivät vielä ymmärrä täysin, mitä seurusteleminen on."
+				],
+				"characters": ["oranssi.png", "vihreä_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"text": [
+					"He eivät aina käsitä sen olevan vain roolipeliä ja saattavat kertoa pelin ulkopuolisesta elämästään \"poika- tai tyttöystävilleen\".",
+					"Siksi deittaaminen onkin kielletty monilla palvelimilla."
+				],
+				"characters": ["oranssi.png", "vihreä_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"text": [
+					"Joka tapauksessa virtuaalinen seurustelu on niin tylsää, etten ymmärrä miksi kukaan haluaisi sitä tehdä."
+				],
+				"characters": ["oranssi.png", "vihreä_puhuu.png"],
+				"align": "right",
+				"class": "half-panel"
+			},
+			{
+				"characters": [
+					{"text": "Sinä et vain osaa roolipelata.", "img": "oranssi_puhuu.png"},
+					{"text": "En tiedä kumpi on tylsempää: istuminen hiljaa vai keskusteleminen kuvitteellisesta televisio-ohjelmasta.", "img": "vihreä_puhuu.png"}
+				],
+				"align": "left"
+			}
+		],
+		"alt_text": "Deittaamista hauskempaa on vaeltaa pitkin tutkimatonta erämaata, ryöstää hylättyjä taloja ja etsiä aarteita.",
+		"comment": "Ruudun 2 kuva: \"Xenia\", nimim. HeyGirlHey, CC BY 3.0 (<a href=\"http://minetest.fensta.bplaced.net\">lähde</a>)"
 	}
 ]
