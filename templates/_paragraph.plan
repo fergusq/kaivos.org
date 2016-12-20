@@ -1,0 +1,19 @@
+| ifstr paragraph |
+	<p>|paragraph|</p>
+| end |
+| iflist paragraph |
+	<p>
+	| for part in paragraph part " " end |
+	</p>
+| end |
+| ifmap paragraph |
+	| if paragraph.type eq "title" |
+		<h2>|paragraph.text|</h2>
+	| end |
+	| if paragraph.type eq "subtitle" |
+		<h3>|paragraph.text|</h3>
+	| end |
+	| if paragraph.type eq "pre" |
+		<pre>| for part in paragraph.code part end |</pre>
+	| end |
+| end |
