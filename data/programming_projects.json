@@ -21,6 +21,37 @@
 		]
 	},
 	{
+		"name": "forten",
+		"title": "Forten",
+		"type": "esikääntäjä ja ohjelmointikieli",
+		"year": "2017",
+		"language": "C++",
+		"categories": ["2017", "ohjelmointikielet"],
+		"summary": ["TeXistä, Putenista ja Fortobista vaikutteita saanut esikääntäjä ja ohjelmointikieli."],
+		"description": [
+			[
+				"Forten on saanut vaikutteita TeXistä, <a href=\"https://github.com/mikkotampio/puten\">Putenista</a> ja <a href=\"fortob.html\">Fortobista</a>.",
+				"Se on ohjelmointikieli, jota voi käyttää esikääntäjänä. Sen ominaisuuksiin kuuluu Fortobista lainattu syntaksin muutettavuus."
+			]
+		],
+		"example": [
+			"\\PushVar:rnl@start:1\n",
+			"\\DefCmd:rnl@IgnoreNls:0{\\IfEq:{\\Eof}:0{\\IfEq:{\\PeekToken}{\n",
+			"}{\\Ignore:{\\NextToken}\\rnl@IgnoreNls}}}\n",
+			"\\After{\\DefOp{\n",
+			"}{\\IfEq:{\\rnl@start}:1{\\rnl@IgnoreNls\\SetVar:rnl@start:0}\\Else{\\IfEq:{\\Eof}:0{\\IfEq:{\\PeekToken}{\n",
+			"}{\\Ignore:{\\NextToken}`\n",
+			"`\n",
+			"}\\Else{ }}\\rnl@IgnoreNls}}\\EvalAgain}"
+		],
+		"links": [
+			{
+				"title": "Fortenin lähdekoodi (C++)",
+				"url": "https://github.com/fergusq/forten"
+			}
+		]
+	},
+	{
 		"name": "fortob",
 		"title": "Fortob",
 		"type": "esoteerinen ohjelmointikieli",
@@ -117,6 +148,28 @@
 			{
 				"title": "Lähdekoodi (Java)",
 				"url": "https://github.com/fergusq/java-nightfall"
+			}
+		]
+	},
+	{
+		"name": "mafia",
+		"title": "Mafia",
+		"type": "peli",
+		"year": "2017",
+		"language": "Röda",
+		"categories": ["2017", "pelit", "verkko-ohjelmat"],
+		"summary": ["Verkossa toimiva pelinjohtaja Mafioso-seurapelille."],
+		"description": [
+			[
+				"Ohjelma on verkossa toimiva palvelu, jota voi käyttää pelinjohtajana Mafioso-pelissä.",
+				"Se on saanut vaikutteita Kahoot-palvelusta, ja perustuu älypuhelimien käyttämiseen.",
+				"Pelin aikana jokaisen pelaajan puhelin kertoo pelaajalle yksilöllisiä ohjeita."
+			]
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Röda)",
+				"url": "https://github.com/fergusq/mafia"
 			}
 		]
 	},
@@ -268,11 +321,7 @@
 		],
 		"example": [
 			"function main(file) {\n",
-			"	linenum := 0\n",
-			"	readLines(file) &#124; for line do\n",
-			"		print(linenum..\" \"..line)\n",
-			"		linenum ++\n",
-			"	done\n",
+			"	readLines(file) &#124; enum() &#124; print(`$linenum $line`) for line, linenum\n",
 			"}"
 		],
 		"links": [
