@@ -21,6 +21,26 @@
 		]
 	},
 	{
+		"name": "bilar",
+		"title": "Bilar",
+		"type": "pakettienhallintaohjelmisto",
+		"year": "2017",
+		"language": "Röda",
+		"categories": ["2017", "ohjelmistot"],
+		"summary": ["Pakettienhallintaohjelmisto Röda-kirjastoille"],
+		"description": [
+			[
+				"Röda Bilar (Bilar-Importable Library Archive) on pakettienhallintaohjelma Röda-kirjastoille. Sen avulla voi ladata ja päivittää paketteja."
+			]
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Röda)",
+				"url": "https://github.com/fergusq/bilar"
+			}
+		]
+	},
+	{
 		"name": "forten",
 		"title": "Forten",
 		"type": "esikääntäjä ja ohjelmointikieli",
