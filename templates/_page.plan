@@ -18,6 +18,7 @@
 					| end |
 					<li><a href="|root categories_map.yläkategoriat.path|">Kategoriat</a>
 						<ul>
+						<li><a href="|root categories_map.ohjelmistot.path|">Sekalaisia ohjelmistoja</a></li>
 						| for category in categories |
 							| ifdef category.categories |
 								|if "ohjelmistot" in category.categories|<li><a href="|root category.path|">|category.title|</a></li>|end|

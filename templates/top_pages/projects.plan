@@ -14,7 +14,7 @@
 	<h2>Ohjelmointiprojektit</h2>
 	<p>
 		Lisää ohjelmiani voi löytää <a href="https://github.com/fergusq">Github-sivuiltani</a>.
-		Lisäksi <a href="http://esolangs.org/wiki/User:GermanyBoy">Esolangs-sivullani</a> on lisää suunnittelemiani ohjelmointikieliä,
+		Lisäksi <a href="http://esolangs.org/wiki/User:Fergusq">Esolangs-sivullani</a> on lisää suunnittelemiani ohjelmointikieliä,
 		mutta kaikkia ei ole toteutettu.
 	</p>
 	| for project in programming_projects |
