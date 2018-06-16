@@ -8,17 +8,17 @@
 	<h2>Sivuston rakenne</h2>
 	<p>Kaivos.org koostuu seuraavista alasivustoista:</p>
 	<ul>
-		<li><code>http://kaivos.org/</code>
+		<li><code>https://www.kaivos.org/</code>
 			Eräänlainen katalogi tekemistäni projekteista.</li>
-		<li><code>http://kaivos.org/~iikka/</code>
+		<li><code>https://www.kaivos.org/~iikka/</code>
 			"Yksityisiä" tiedostoja, joihin ei ole linkkejä pääsivulta.
 			Osa on keskeneräisiä, osa tekijänoikeuden suojaamia, osa piilotettu muista syistä.
 			Ei kuitenkaan mitään erityisen salaista.</li>
-		<li><code>http://kaivos.org/kielet/</code>
+		<li><code>https://www.kaivos.org/kielet/</code>
 			Fiktiivisten kielten kansio.</li>
-		<li><code>http://kaivos.org/rien/</code>
+		<li><code>https://www.kaivos.org/rien/</code>
 			Fiktiivisten maailmojen kansio.</li>
-		<li><code>http://sve.kaivos.org/</code>
+		<li><code>https://sve.kaivos.org/</code>
 			Sve-kielen kotisivu.</li>
 		<li><code>http://r.kaivos.org/</code>
 			Responda-projektin kotisivu.</li>

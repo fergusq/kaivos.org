@@ -136,7 +136,7 @@
 		"links": [
 			{
 				"title": "Toteutuksen lähdekoodi (C++)",
-				"url": "http://www.kaivos.org/doc/goldfish.cpp"
+				"url": "https://www.kaivos.org/doc/goldfish.cpp"
 			},
 			{
 				"title": "Esolangs-artikkeli",
@@ -386,7 +386,7 @@
 			},
 			{
 				"title": "Dokumentaatio",
-				"url": "http://kaivos.org/~iikka/röda/doc"
+				"url": "https://kaivos.org/~iikka/röda/doc"
 			},
 			{
 				"title": "Nettitulkki (Try It Online)",
@@ -423,7 +423,7 @@
 		"links": [
 			{
 				"title": "Kotisivu",
-				"url": "http://sve.kaivos.org/"
+				"url": "https://sve.kaivos.org/"
 			},
 			{
 				"title": "Toteutuksen lähdekoodi (Java)",
