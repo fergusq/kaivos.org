@@ -302,6 +302,41 @@
 		]
 	},
 	{
+		"name": "retki",
+		"title": "Retki",
+		"type": "ohjelmointikieli",
+		"year": "2018",
+		"language": "Python",
+		"categories": ["2018", "ohjelmointikielet"],
+		"summary": ["Suomenkielinen klooni Inform 7 -kielestä"],
+		"description": [
+			[
+				"Retki on Tampion tavoin suomen kirjakieleen perustuva ohjelmointikieli",
+				"ja se on ottanut vaikutteita englanninkielisestä Inform 7-kielestä.",
+				"Sen avulla voi luoda omia suomenkielisiä tekstiseikkailuja."
+			],
+			[
+				"Retki perustuu Suomilog-kirjastooni, jonka avulla voi tehdä jäsentimiä",
+				"sanataivutukseen perustuville ohjelmointikielille."
+			]
+		],
+		"example": [
+			"Ennen kirjoitusta sisältämättömän esineen lukemista:\n",
+			"   Sano \"[Se] ei sisällä mitään kirjoitusta.\"\n",
+			"   Keskeytä toiminto."
+		],
+		"links": [
+			{
+				"title": "Toteutuksen lähdekoodi (Python)",
+				"url": "https://github.com/fergusq/retki"
+			},
+			{
+				"title": "Suomilog-kirjasto (Python)",
+				"url": "https://github.com/fergusq/suomilog"
+			}
+		]
+	},
+	{
 		"name": "röda",
 		"title": "Röda",
 		"type": "ohjelmointikieli",
@@ -332,6 +367,10 @@
 			{
 				"title": "Dokumentaatio",
 				"url": "http://kaivos.org/~iikka/röda/doc"
+			},
+			{
+				"title": "Nettitulkki (Try It Online)",
+				"url": "https://tio.run/#roda"
 			}
 		]
 	},
@@ -415,6 +454,52 @@
 			{
 				"title": "Esolangs-artikkeli",
 				"url": "http://esolangs.org/wiki/SYCPOL"
+			}
+		]
+	},
+	{
+		"name": "tampio",
+		"title": "Tampio",
+		"type": "esoteerinen ohjelmointikieli",
+		"year": "2017",
+		"language": "Python",
+		"categories": ["2017", "esoteeriset_ohjelmointikielet"],
+		"summary": ["Ohjelmointikieli, joka jäljittelee suomen kirjakieltä."],
+		"description": [
+			[
+				"Tampio on esoteerinen ohjelmointikieli, joka jäljittelee suomen kirjakieltä.",
+				"Sen syntaksi perustuu siis vahvasti sanojen taivuttamiseen."
+			],
+			[
+				"Tampio on toteutettu Pythonilla ja se käyttää apunaan Voikko-kirjastoa morfologiseen jäsentämiseen."
+			]
+		],
+		"example": [
+			"Pienen luvun kertoma on\n",
+			"    riippuen siitä, onko se pienempi tai yhtä suuri kuin yksi,\n",
+			"    joko yksi\n",
+			"    tai pieni luku kerrottuna pienen luvun edeltäjän kertomalla.\n",
+			"\n",
+			"Luvun edeltäjä on se vähennettynä yhdellä.\n",
+			"\n",
+			"Olkoon pieni muuttuja uusi muuttuja, jonka arvo on nolla.\n",
+			"\n",
+			"Kun nykyinen sivu avautuu,\n",
+			"    pieneen muuttujaan luetaan luku\n",
+			"    ja nykyinen sivu näyttää pienen muuttujan arvon kertoman."
+		],
+		"links": [
+			{
+				"title": "Lähdekoodi (Python)",
+				"url": "https://github.com/fergusq/tampio"
+			},
+			{
+				"title": "Esolangs-artikkeli",
+				"url": "http://esolangs.org/wiki/Tampio"
+			},
+			{
+				"title": "Nettitulkki (Try It Online)",
+				"url": "https://tio.run/#tampioi"
 			}
 		]
 	},

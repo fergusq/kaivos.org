@@ -48,6 +48,11 @@
 		"categories": ["vuodet"]
 	},
 	{
+		"name": "2018",
+		"title": "2018",
+		"categories": ["vuodet"]
+	},
+	{
 		"_comment": "=== OHJELMISTOT ===",
 		
 		"name": "ohjelmistot",
