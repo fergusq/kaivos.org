@@ -27,7 +27,7 @@
 		"year": "2017",
 		"language": "Röda",
 		"categories": ["2017", "ohjelmistot"],
-		"summary": ["Pakettienhallintaohjelmisto Röda-kirjastoille"],
+		"summary": ["Pakettienhallintaohjelmisto Röda-kirjastoille."],
 		"description": [
 			[
 				"Röda Bilar (Bilar-Importable Library Archive) on pakettienhallintaohjelma Röda-kirjastoille. Sen avulla voi ladata ja päivittää paketteja."
@@ -295,6 +295,54 @@
 		]
 	},
 	{
+		"name": "pyco",
+		"title": "Pyco",
+		"type": "säveltävä ohjelma",
+		"year": "2016",
+		"language": "mm. Röda",
+		"categories": ["2016", "ohjelmistot"],
+		"summary": ["Säveltävä ohjelma."],
+		"description": [
+			[
+				"Pyco on säveltävä ohjelma, jonka toteutin ja suunnittelin yhdessä",
+				"Lassi Kaimion kanssa."
+			],
+			[
+				"Jos haluat kokeilla Pycoa, voit kuunnella sen sävellyksiä",
+				"<a href=\"|root programming_projects_map.radiogem.path|\">Radio Gemillä</a>."
+			]
+		],
+		"links": []
+	},
+	{
+		"name": "radiogem",
+		"title": "Radio Gem",
+		"type": "nettiradio",
+		"year": "2017",
+		"language": "mm. Röda",
+		"categories": ["2017", "verkko-ohjelmat"],
+		"summary": ["Tekoälyn toimittama radiokanava."],
+		"description": [
+			[
+				"Radio Gem on <a href=\"|root programming_projects_map.pyco.path|\">Pyco-ohjelman</a>",
+				"demoamiseen tarkoitettu nettiradio,",
+				"joka soittaa tauotta tietokoneen säveltämää musiikkia.",
+				"Se sisältää Pycon lisäksi myös Folklaine-ohjelman sävellyksiä",
+				"ja Ylekov-ohjelman uutisia."
+			]
+		],
+		"links": [
+			{
+				"title": "Kotisivu",
+				"url": "http://gem.kaivos.org"
+			},
+			{
+				"title": "Lähdekoodi (Röda)",
+				"url": "https://gist.github.com/fergusq/16d9805e4f24aef492c74aef53685528"
+			}
+		]
+	},
+	{
 		"name": "responda",
 		"title": "Responda",
 		"type": "verkko-ohjelma",
@@ -328,7 +376,7 @@
 		"year": "2018",
 		"language": "Python",
 		"categories": ["2018", "ohjelmointikielet"],
-		"summary": ["Suomenkielinen klooni Inform 7 -kielestä"],
+		"summary": ["Suomenkielinen klooni Inform 7 -kielestä."],
 		"description": [
 			[
 				"Retki on Tampion tavoin suomen kirjakieleen perustuva ohjelmointikieli",
