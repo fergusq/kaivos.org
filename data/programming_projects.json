@@ -299,7 +299,7 @@
 		"title": "Pyco",
 		"type": "säveltävä ohjelma",
 		"year": "2016",
-		"language": "mm. Röda",
+		"language": "Python",
 		"categories": ["2016", "ohjelmistot"],
 		"summary": ["Säveltävä ohjelma."],
 		"description": [
@@ -439,6 +439,10 @@
 			{
 				"title": "Nettitulkki (Try It Online)",
 				"url": "https://tio.run/#roda"
+			},
+			{
+				"title": "Rödalla kirjoitettuja kirjastoja",
+				"url": "https://github.com/fergusq/bils"
 			}
 		]
 	},
