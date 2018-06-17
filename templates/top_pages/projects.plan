@@ -25,7 +25,7 @@
 			<pre class="codebox">|for e in project.example e end|</pre>
 		| end |
 		| for p in project.description |
-			<p>|for s in p s " " end|</p>
+			<p>|for s in p s.interpret " " end|</p>
 		| end |
 	| end |
 	<h2>Kirjallisuusprojektit</h2>
@@ -39,7 +39,7 @@
 			</blockquote>
 		| end |
 		| for p in project.description |
-			<p>|for s in p s " " end|</p>
+			<p>|for s in p s.interpret " " end|</p>
 		| end |
 	| end |
 | end |

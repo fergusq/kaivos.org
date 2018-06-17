@@ -10,7 +10,7 @@
 		</blockquote>
 	| end |
 	| for p in self.description |
-		<p>|for s in p s " " end|</p>
+		<p>|for s in p s.interpret " " end|</p>
 	| end |
 	| ifdef self.links |
 		<h2>Linkkejä</h2>
