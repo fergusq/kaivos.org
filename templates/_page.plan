@@ -26,7 +26,7 @@
 							| end |
 						| end |
 						</ul></li>
-					<li><a href="|root categories_map.yläkategoriat.path|">Vuodet</a>
+					<li><a href="|root categories_map.vuodet.path|">Vuodet</a>
 						<ul>
 						| for category in categories |
 							| ifdef category.categories |

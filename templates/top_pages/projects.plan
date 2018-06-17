@@ -2,15 +2,17 @@
 
 | block content |
 	<p>Tälle sivulle on listattu kaikki ohjelmointi- ja kirjallisuusprojektit, jotka löytyvät tältä sivustolta.</p>
-	<table class="count">
-		<tr><th>Nimi</th><th>Kategoria</th><th>Kieli</th><th>Vuosi</th></tr>
-		| for project in programming_projects |
-			<tr><td>|project.title|</td><td>|project.type|</td><td>|project.language|</td><td>|project.year|</td></tr>
-		| end |
-		| for project in literature_projects |
-			<tr><td>|project.title|</td><td>|project.type|</td><td></td><td>|project.year|</td></tr>
-		| end |
-	</table>
+	<div class="xscroll">
+		<table class="count">
+			<tr><th>Nimi</th><th>Kategoria</th><th>Kieli</th><th>Vuosi</th></tr>
+			| for project in programming_projects |
+				<tr><td>|project.title|</td><td>|project.type|</td><td>|project.language|</td><td>|project.year|</td></tr>
+			| end |
+			| for project in literature_projects |
+				<tr><td>|project.title|</td><td>|project.type|</td><td></td><td>|project.year|</td></tr>
+			| end |
+		</table>
+	</div>
 	<h2>Ohjelmointiprojektit</h2>
 	<p>
 		Lisää ohjelmiani voi löytää <a href="https://github.com/fergusq">Github-sivuiltani</a>.

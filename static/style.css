@@ -46,6 +46,12 @@ div.over {
 	color: #444;
 	cursor: default;
 }
+
+@media screen and (max-width: 600px) {
+	.nav li ul {
+		display: none;
+	}
+}
  
 @media screen and (min-width: 600px) {
 	.nav li {
@@ -121,6 +127,11 @@ pre.codebox {
 	border-radius: 4px 4px 4px 4px;
 	border-color: #bbb;
 	padding: 5px;
+	overflow-x: auto;
+}
+
+div.xscroll {
+	overflow-x: auto;
 }
 
 table.count {
